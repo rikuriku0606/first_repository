@@ -16,8 +16,6 @@
                 <p class='body'>{{$post->body}}</p>
             </div>
           @endforeach
-        </div>
-        @endforeach
       </div>
       <div class='paginate'>{{$posts->links()}}</div>
   </body>
